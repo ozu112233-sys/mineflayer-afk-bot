@@ -1,5 +1,12 @@
 const Client = require('./library/Client');
-const config = require('../config');
+
+const config = {
+	host: 'Patatees.aternos.me',
+	port: 61243,
+	username: 'ilk_bot',
+	version: '1.20.1',
+	auth: 'mojang'
+};
 
 const sleep = (waitTimeInMs) => new Promise(resolve => setTimeout(resolve, waitTimeInMs));
 
